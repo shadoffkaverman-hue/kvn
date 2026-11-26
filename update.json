@@ -1,9 +1,9 @@
 {
-  "versionCode": 749,
-  "versionName": "1.14.3-simple.6",
-  "apkUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.6/vpn-client-test-1.14.3-simple.6-arm64-v8a.apk",
-  "sha256": "3a871c628cbfc9845c505a088e2ae641c29dae1e63a19c2cbf5783a418a19b58",
-  "fileSize": 42003451,
-  "changelog_ru": "Новый главный экран в стиле Happ: список серверов с пингом, кнопка «Пинг всех», автовыбор ключа с наименьшим пингом.",
-  "releaseUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.6/vpn-client-test-1.14.3-simple.6-arm64-v8a.apk"
+  "versionCode": 750,
+  "versionName": "1.14.3-simple.7",
+  "apkUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.7/vpn-client-test-1.14.3-simple.7-arm64-v8a.apk",
+  "sha256": "4182c095b1a5d158981e0fb76375e14f751dbbaf1f695663bd00ed0fe943c8d6",
+  "fileSize": 42010755,
+  "changelog_ru": "Исправления и новый интерфейс.\n\nЧто ломалось и что починили:\n• Пинг больше не поднимает второй движок и не конфликтует с VPN. Если туннель уже включён, задержка меряется через ядро; если нет — обычным TCP.\n• Если подписка была добавлена в предыдущей версии, список серверов теперь восстанавливается сам.\n• Пинг и подключение не должны зависать, индикаторы не залипают.\n• В шапке кнопка «отправить лог»: копирует диагноз без ключей и UUID, его можно прислать, если снова что-то пойдёт не так.\n\nКак выглядит:\nтёмная тема с одним золотым акцентом, карточки 20 dp, пинг в пилюлях, флаги стран, отдельная карточка «Авто» сверху, кнопка подключения внизу со статусом, таймером и скоростью.",
+  "releaseUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.7/vpn-client-test-1.14.3-simple.7-arm64-v8a.apk"
 }
