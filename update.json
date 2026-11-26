@@ -1,10 +1,9 @@
 {
-  "versionCode": 748,
-  "versionName": "1.14.3-simple.5",
-  "apkUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.5/vpn-client-test-1.14.3-simple.5-arm64-v8a.apk",
-  "sha256": "a1d9149c340ba9ac374843b67060ad343bde1a783d5773288521e0904defcd9f",
-  "fileSize": 41959087,
-  "changelog_ru": "Постоянный адрес обновлений в репозитории kvn. Эту версию поставьте вручную один раз — дальше клиент обновится сам.",
-  "releaseUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.5/vpn-client-test-1.14.3-simple.5-arm64-v8a.apk",
-  "apkUrlMirror": "https://litter.catbox.moe/0tqtms.apk"
+  "versionCode": 749,
+  "versionName": "1.14.3-simple.6",
+  "apkUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.6/vpn-client-test-1.14.3-simple.6-arm64-v8a.apk",
+  "sha256": "3a871c628cbfc9845c505a088e2ae641c29dae1e63a19c2cbf5783a418a19b58",
+  "fileSize": 42003451,
+  "changelog_ru": "Новый главный экран в стиле Happ: список серверов с пингом, кнопка «Пинг всех», автовыбор ключа с наименьшим пингом.",
+  "releaseUrl": "https://github.com/shadoffkaverman-hue/kvn/releases/download/1.14.3-simple.6/vpn-client-test-1.14.3-simple.6-arm64-v8a.apk"
 }
