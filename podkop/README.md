@@ -33,3 +33,17 @@ sh <(wget -O - https://raw.githubusercontent.com/itdoginfo/podkop/a6a171ef47d0ea
 - Каталоги пакетов OpenWrt через `opkg update` / `opkg install`: `dnsmasq-full`, `sing-box`, `wireguard-tools`, `luci-proto-wireguard`, `luci-app-wireguard`, `openvpn-openssl`, `luci-app-openvpn`, `openconnect`, `luci-proto-openconnect`.
 - Если выбрать AmneziaWG — пакеты с [Slava-Shchipunov/awg-openwrt](https://github.com/Slava-Shchipunov/awg-openwrt) (`https://github.com/Slava-Shchipunov/awg-openwrt/releases/download/`).
 - Справки по ручной настройке на [itdog.info](https://itdog.info): [WireGuard](https://itdog.info/nastrojka-klienta-wireguard-na-openwrt/), [OpenVPN](https://itdog.info/nastrojka-klienta-openvpn-na-openwrt/), [OpenConnect](https://itdog.info/nastrojka-klienta-openconnect-na-openwrt/).
+
+
+## Офлайн-установка с ПК
+
+Если с роутера нельзя качать GitHub, ставь с компьютера по SSH: роутер ничего не скачивает.
+
+Инструкция и скрипты: [offline/README.md](offline/README.md). Архивы под архитектуру — в релизе [podkop-v0.2.5-offline](https://github.com/shadoffkaverman-hue/kvn/releases/tag/podkop-v0.2.5-offline).
+
+На Windows, из распакованной папки архива:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\install-from-pc.ps1 -Router 192.168.1.1
+```

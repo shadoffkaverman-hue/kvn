@@ -1,0 +1,34 @@
+{
+  "zips": [
+    {
+      "filename": "podkop-0.2.5-offline-aarch64_cortex-a53.zip",
+      "size": 38071481,
+      "sha256": "6d081ce2d64775dd4a662bc9383508d9f3627cb664725974e3a3d594b4d40c73",
+      "arch": "aarch64_cortex-a53"
+    },
+    {
+      "filename": "podkop-0.2.5-offline-aarch64_generic.zip",
+      "size": 33024765,
+      "sha256": "cf09c8842abd967b763ee291eff236e19aa092fc798b42b95009a873aae1b3ba",
+      "arch": "aarch64_generic"
+    },
+    {
+      "filename": "podkop-0.2.5-offline-arm_cortex-a7_neon-vfpv4.zip",
+      "size": 39037529,
+      "sha256": "eaefa3f9d06b5e260ce375047cc66e4c999961a530110468e5ecd2518c9d5051",
+      "arch": "arm_cortex-a7_neon-vfpv4"
+    },
+    {
+      "filename": "podkop-0.2.5-offline-mipsel_24kc.zip",
+      "size": 32387355,
+      "sha256": "72b3cb025298de8f85239cc22adaab37763c570522605e894c945f05435eeb28",
+      "arch": "mipsel_24kc"
+    },
+    {
+      "filename": "podkop-0.2.5-offline-x86_64.zip",
+      "size": 32995792,
+      "sha256": "c66598134e707186bf289cfe30a87e1a584421570599f02b40b19f5a64064d3f",
+      "arch": "x86_64"
+    }
+  ]
+}
